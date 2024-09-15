@@ -24,7 +24,7 @@ Focus on scalability, security, and automation in data handling.
 
 ### Dataset Preparation
  - Data was collected in Excel format for the years 2023 and 2024.
- - ![Operational Data](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/d616dafead405bcac2530afaa6d3f99090684b99/Images/image.png)
+  ![Operational Data](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/d616dafead405bcac2530afaa6d3f99090684b99/Images/image.png)
  - ETL operations were used to prepare the dataset for analysis.
 
 ### Data Ingestion
