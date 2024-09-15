@@ -1,17 +1,11 @@
-Project Overview: Anlaysis of 
-
+### Project Overview: 
 Transition of the 'City of Vancouver' portal data to AWS cloud.
 Development of a Data Analytics Pipeline (DAP) using AWS services.
 Focus on scalability, security, and automation in data handling.
-Data Analytical Question Formulation:
 
-The project formulated specific data analysis questions to guide the analytical process.
-Example: Analysis of "3-1-1 contact centre metrics" within the Government & Finance department.
-Data Discovery:
-
-Data was sourced from the City of Vancouver website.
-Utilized datasets from the Government & Finance department in various formats (Excel, JSON, CSV, Parquet).
-Data Storage Design:
+### Data Analytical Question Formulation
+ - The project formulated specific data analysis questions to guide the analytical process.
+ - Example: Analysis of "3-1-1 contact centre metrics" within the Government & Finance department.
 
 ## Table of Contents
 
@@ -21,9 +15,16 @@ Data Storage Design:
  - [Requirement](#requirement)
  - [Data Cleaning & Transformation](#data-cleaning-and-transformation)
  - [Data Visualization](#data-visualization)
+### Data Discovery
+ - Data was sourced from the City of Vancouver website.
+ - Utilized datasets from the Government & Finance department in various formats (Excel, JSON, CSV, Parquet).
 
-Amazon S3 was used for data storage with a bucket named 'project1-gov-fin-vivek-dataset'.
-Data was organized into three folders: Landing, Raw, and Curated to represent different stages of processing.
+
+
+
+### Data Storage Design
+ - Amazon S3 was used for data storage with a bucket named 'project1-gov-fin-vivek-dataset'.
+ - Data was organized into three folders: Landing, Raw, and Curated to represent different stages of processing.
 
 ### Dataset Preparation
  - Data was collected in Excel format for the years 2023 and 2024.
