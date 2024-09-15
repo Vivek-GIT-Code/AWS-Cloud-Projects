@@ -27,10 +27,6 @@
    
    ![Metrics](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/bd538da4b102a01b9f5fda7b91990f1b4537735d/Images/Picture1.png)
 
-### Data Pipeline Design
- - A systematic design for the data pipeline was created using draw.io.
- - Steps for metrics calculation like "Percentage of Calls Handled" were defined.
-
 ### Data Cleaning and Structuring
  - AWS Glue Databrew was used to clean the datasets for the years 2023 and 2024.
  - Ensured no missing or invalid values were present in the data.
@@ -52,4 +48,5 @@
 ### Data Publishing
  - General Server and Web Server were set up using Amazon EC2 for internal and external data access.
  - Published the annual analysis report on the percentage of calls handled for public access.
+   
 ![Data Publishing](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/752a31569e76695a2524a152ace1461959bddc4c/Images/Picture5.png)
