@@ -44,7 +44,26 @@
 ### Data Analysis
  - Data analysis was performed using AWS Athena.
  - SQL database was utilized to analyze the content of the dataset.
-   
+ - Table DDL
+
+```sql
+  --Cleaned DIM_DateTable --
+CREATE EXTERNAL TABLE `gov_fin_contactcentre_table_vivek`(
+  `year` string, 
+  `percent_of_calls_handled` string)
+ROW FORMAT DELIMITED 
+  FIELDS TERMINATED BY ',' 
+STORED AS INPUTFORMAT 
+  'org.apache.hadoop.mapred.TextInputFormat' 
+OUTPUTFORMAT 
+  'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
+LOCATION
+  's3://project1-gov-fin-vivek-dataset/Government and Finance Domain/Curated/Yearly Analysis'
+TBLPROPERTIES (
+  'classification'='csv', 
+  'skip.header.line.count'='1', 
+  'transient_lastDdlTime'='1724308959')
+
    ![Data Anlaysis](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/c7550f7b1494d1871892d5927adda31e96f0fd66/Images/Picture4.png)
 
 ### Data Publishing
