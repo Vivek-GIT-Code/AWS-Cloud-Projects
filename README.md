@@ -6,6 +6,8 @@ Focus on scalability, security, and automation in data handling.
 ## Data Analytical Question Formulation
  - The project formulated specific data analysis questions to guide the analytical process.
  - Example: Analysis of "3-1-1 contact centre metrics" within the Government & Finance department.
+ - ![image](https://github.com/user-attachments/assets/fbd6710f-45c0-4cc1-9fe8-06ab286d4d55)
+
 
 ## Table of Contents
  - [Data Discovery](#data-discovery)
