@@ -45,7 +45,7 @@
  - Data analysis was performed using AWS Athena.
  - SQL database was utilized to analyze the content of the dataset.
    
-   ![Data Anlaysis](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/272761fc38ffc35709d3e60874ea308f7b949cfc/Images/Picture4.png)
+   ![Data Anlaysis](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/c7550f7b1494d1871892d5927adda31e96f0fd66/Images/Picture4.png)
 
 ### Data Publishing
  - General Server and Web Server were set up using Amazon EC2 for internal and external data access.
