@@ -2,6 +2,7 @@
 Transition of the 'City of Vancouver' portal data to AWS cloud.
 Development of a Data Analytics Pipeline (DAP) using AWS services.
 Focus on scalability, security, and automation in data handling.
+!(https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/d616dafead405bcac2530afaa6d3f99090684b99/Images/image.png)
 
 ## Data Analytical Question Formulation
  - The project formulated specific data analysis questions to guide the analytical process.
