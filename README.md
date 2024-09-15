@@ -2,7 +2,6 @@
 Transition of the 'City of Vancouver' portal data to AWS cloud.
 Development of a Data Analytics Pipeline (DAP) using AWS services.
 Focus on scalability, security, and automation in data handling.
-![1.Project Overview](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/d616dafead405bcac2530afaa6d3f99090684b99/Images/image.png)
 
 ## Data Analytical Question Formulation
  - The project formulated specific data analysis questions to guide the analytical process.
@@ -23,12 +22,9 @@ Focus on scalability, security, and automation in data handling.
  - Data was sourced from the City of Vancouver website.
  - Utilized datasets from the Government & Finance department in various formats (Excel, JSON, CSV, Parquet).
 
-### Data Storage Design
- - Amazon S3 was used for data storage with a bucket named 'project1-gov-fin-vivek-dataset'.
- - Data was organized into three folders: Landing, Raw, and Curated to represent different stages of processing.
-
 ### Dataset Preparation
  - Data was collected in Excel format for the years 2023 and 2024.
+ - ![Operational Data](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/d616dafead405bcac2530afaa6d3f99090684b99/Images/image.png)
  - ETL operations were used to prepare the dataset for analysis.
 
 ### Data Ingestion
