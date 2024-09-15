@@ -1,4 +1,6 @@
-# Project Overview: 
+# AWS Projects 
+
+## Project 1 Overview: 
  - Transition of the 'City of Vancouver' portal data to AWS cloud. 
  - Development of a Data Analytics Pipeline (DAP) using AWS services.
  - Focus on scalability, security, and automation in data handling.
