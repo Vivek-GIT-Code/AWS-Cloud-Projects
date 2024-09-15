@@ -10,17 +10,11 @@ Focus on scalability, security, and automation in data handling.
 ## Table of Contents
 
  - [Project Overview](#project-overview)
- - [Data Sources](#data-sources)
- - [Tools](#tools)
- - [Requirement](#requirement)
- - [Data Cleaning & Transformation](#data-cleaning-and-transformation)
- - [Data Visualization](#data-visualization)
+ - [Data Discovery](#data-discovery)
+   
 ### Data Discovery
  - Data was sourced from the City of Vancouver website.
  - Utilized datasets from the Government & Finance department in various formats (Excel, JSON, CSV, Parquet).
-
-
-
 
 ### Data Storage Design
  - Amazon S3 was used for data storage with a bucket named 'project1-gov-fin-vivek-dataset'.
