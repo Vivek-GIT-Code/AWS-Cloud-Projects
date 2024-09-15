@@ -20,13 +20,11 @@ Focus on scalability, security, and automation in data handling.
    
 ### Data Discovery
  - Data was sourced from the City of Vancouver website.
- - Utilized datasets from the Government & Finance department in various formats (Excel, JSON, CSV, Parquet).
+ -  - Utilized datasets from the Government & Finance department in various formats in Excel Format.
+   ![Operational Data](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/d616dafead405bcac2530afaa6d3f99090684b99/Images/image.png)
 
 ### Dataset Preparation
  - Data was collected in Excel format for the years 2023 and 2024.
-   
-  ![Operational Data](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/d616dafead405bcac2530afaa6d3f99090684b99/Images/image.png)
-  
  - ETL operations were used to prepare the dataset for analysis.
 
 ### Data Ingestion
