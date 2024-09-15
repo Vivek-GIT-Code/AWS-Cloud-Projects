@@ -22,35 +22,22 @@
    ![Question Formulation](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/959d4aa9e6ea5f4dc622d78a5e7477ad2bf55c2d/Images/Picture2.png)
  - I have delved into the data for 2023 and 2024 to produce a metric called “Percentage of Calls handled.” The metric will provide the percentage of calls handled in the years 2023 and 2024, respectively
  - Percentage of calls handled = (Number of calls handled/ Number of calls offered) * 100
- - ![Metrics](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/bd538da4b102a01b9f5fda7b91990f1b4537735d/Images/Picture1.png)
-
-### Dataset Preparation
- - Data was collected in Excel format for the years 2023 and 2024.
- - ETL operations were used to prepare the dataset for analysis.
-
-### Data Ingestion
- - Data ingestion was performed using AWS services.
- - Data was uploaded into the S3 bucket using the 'Standard' storage class for frequent access.
-
-### Data Storage
- - S3 general bucket was created for storing data in different folders (Landing, Raw, Curated).
- - Data was categorized based on the year and processing stage.
+   ![Metrics](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/bd538da4b102a01b9f5fda7b91990f1b4537735d/Images/Picture1.png)
 
 ### Data Pipeline Design
  - A systematic design for the data pipeline was created using draw.io.
  - Steps for metrics calculation like "Percentage of Calls Handled" were defined.
 
-### Data Cleaning
+### Data Cleaning and Structuring
  - AWS Glue Databrew was used to clean the datasets for the years 2023 and 2024.
  - Ensured no missing or invalid values were present in the data.
-
-### Data Structuring
  - The dataset was structured using AWS Glue DataBrew.
  - Columns were renamed, and data types were adjusted to fit the analysis requirements.
 
 ### Data Pipeline Implementation:
  - Implemented using AWS Glue for ETL processes.
  - Transformation operations included schema changes, aggregation, and union operations.
+   ![Data Pipeline](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/e223ff041416c74605764261a210bb18d737121c/Images/Picture3.png)
 
 ### Data Analysis
  - Data analysis was performed using AWS Athena.
