@@ -3,12 +3,8 @@
  - Development of a Data Analytics Pipeline (DAP) using AWS services.
  - Focus on scalability, security, and automation in data handling.
 
-## Data Analytical Question Formulation
- - The project formulated specific data analysis questions to guide the analytical process.
- - Example: Analysis of "3-1-1 contact centre metrics" within the Government & Finance department.
- - Percentage of calls handled = (Number of calls handled/ Number of calls offered) * 100
-
 ## Table of Contents
+ - [Data Analytical Question Formulation](#data-analytical-question-formulation)
  - [Data Discovery](#data-discovery)
  - [Data Storage Design](#data-storage-design)
  - [Dataset Preparation](#dataset-preparation)
@@ -18,11 +14,14 @@
  - [Data Analysis](#data-analysis)
  - [Data Visualisation](#data-visualisation)
  - [Data Publishing](#data-publishing) 
-   
-### Data Discovery
+
+### Data Analytical Question Formulation
+ - I chose to focus on the procedure ‘Contact Centre Metrics’ in the Government and Finance department for the city of Vancouver. 
  - Data was sourced from the City of Vancouver website.
- - Utilized datasets from the Government & Finance department in various formats in Excel Format.
+ - Utilized datasets  in Excel Format is as shown below.
    ![Operational Data](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/d616dafead405bcac2530afaa6d3f99090684b99/Images/Picture1.png)
+ - I have delved into the data for 2023 and 2024 to produce a metric called “Percentage of Calls handled.” The metric will provide the percentage of calls handled in the years 2023 and 2024, respectively
+ - Percentage of calls handled = (Number of calls handled/ Number of calls offered) * 100
 
 ### Dataset Preparation
  - Data was collected in Excel format for the years 2023 and 2024.
