@@ -24,43 +24,43 @@ Data Storage Design:
 
 Amazon S3 was used for data storage with a bucket named 'project1-gov-fin-vivek-dataset'.
 Data was organized into three folders: Landing, Raw, and Curated to represent different stages of processing.
-Dataset Preparation:
 
-Data was collected in Excel format for the years 2023 and 2024.
-ETL operations were used to prepare the dataset for analysis.
-Data Ingestion:
+### Dataset Preparation
+ - Data was collected in Excel format for the years 2023 and 2024.
+ - ETL operations were used to prepare the dataset for analysis.
 
-### Data ingestion was performed using AWS services.
-- Data was uploaded into the S3 bucket using the 'Standard' storage class for frequent access.
-Data Storage:
+### Data Ingestion
+ - Data ingestion was performed using AWS services.
+ - Data was uploaded into the S3 bucket using the 'Standard' storage class for frequent access.
 
-S3 general bucket was created for storing data in different folders (Landing, Raw, Curated).
-Data was categorized based on the year and processing stage.
-Data Pipeline Design:
+### Data Storage
+ - S3 general bucket was created for storing data in different folders (Landing, Raw, Curated).
+ - Data was categorized based on the year and processing stage.
 
-A systematic design for the data pipeline was created using draw.io.
-Steps for metrics calculation like "Percentage of Calls Handled" were defined.
-Data Cleaning:
+### Data Pipeline Design
+ - A systematic design for the data pipeline was created using draw.io.
+ - Steps for metrics calculation like "Percentage of Calls Handled" were defined.
 
-AWS Glue Databrew was used to clean the datasets for the years 2023 and 2024.
-Ensured no missing or invalid values were present in the data.
-Data Structuring:
+### Data Cleaning
+ - AWS Glue Databrew was used to clean the datasets for the years 2023 and 2024.
+ - Ensured no missing or invalid values were present in the data.
 
-The dataset was structured using AWS Glue DataBrew.
-Columns were renamed, and data types were adjusted to fit the analysis requirements.
-Data Pipeline Implementation:
+### Data Structuring
+ - The dataset was structured using AWS Glue DataBrew.
+ - Columns were renamed, and data types were adjusted to fit the analysis requirements.
 
-Implemented using AWS Glue for ETL processes.
-Transformation operations included schema changes, aggregation, and union operations.
-Data Analysis:
+### Data Pipeline Implementation:
+ - Implemented using AWS Glue for ETL processes.
+ - Transformation operations included schema changes, aggregation, and union operations.
 
-Data analysis was performed using AWS Athena.
-SQL database was utilized to analyze the content of the dataset.
-Data Visualization:
+### Data Analysis
+ - Data analysis was performed using AWS Athena.
+ - SQL database was utilized to analyze the content of the dataset.
 
-AWS Quicksight was intended for data visualization but was not available, so Excel was used instead.
+### Data Visualization:
+ - AWS Quicksight was intended for data visualization but was not available, so Excel was used instead.
 Visualizations were created to showcase the analysis findings.
-Data Publishing:
 
-General Server and Web Server were set up using Amazon EC2 for internal and external data access.
+### Data Publishing
+ - General Server and Web Server were set up using Amazon EC2 for internal and external data access.
 Published the annual analysis report on the percentage of calls handled for public access.
