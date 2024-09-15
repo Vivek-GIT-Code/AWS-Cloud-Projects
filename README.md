@@ -1,9 +1,9 @@
-### Project Overview: 
+# Project Overview: 
 Transition of the 'City of Vancouver' portal data to AWS cloud.
 Development of a Data Analytics Pipeline (DAP) using AWS services.
 Focus on scalability, security, and automation in data handling.
 
-### Data Analytical Question Formulation
+## Data Analytical Question Formulation
  - The project formulated specific data analysis questions to guide the analytical process.
  - Example: Analysis of "3-1-1 contact centre metrics" within the Government & Finance department.
 
