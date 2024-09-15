@@ -8,9 +8,15 @@ Focus on scalability, security, and automation in data handling.
  - Example: Analysis of "3-1-1 contact centre metrics" within the Government & Finance department.
 
 ## Table of Contents
-
- - [Project Overview](#project-overview)
  - [Data Discovery](#data-discovery)
+ - [Data Storage Design](#data-storage-design)
+ - [Dataset Preparation](#dataset-preparation)
+ - [Data Ingestion](#data-ingestion)
+ - [Data Storage](#data-storage)
+ - [Data Pipeline Design](#data-pipeline-design)
+ - [Data Analysis](#data-analysis)
+ - [Data Visualisation](#data-visualisation)
+ - [Data Publishing](#data-publishing) 
    
 ### Data Discovery
  - Data was sourced from the City of Vancouver website.
