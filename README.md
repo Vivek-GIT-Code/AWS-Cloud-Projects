@@ -42,10 +42,7 @@
 ### Data Analysis
  - Data analysis was performed using AWS Athena.
  - SQL database was utilized to analyze the content of the dataset.
-
-### Data Visualization:
- - AWS Quicksight was intended for data visualization but was not available, so Excel was used instead.
-Visualizations were created to showcase the analysis findings.
+   ![Data Anlaysis](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/272761fc38ffc35709d3e60874ea308f7b949cfc/Images/Picture4.png)
 
 ### Data Publishing
  - General Server and Web Server were set up using Amazon EC2 for internal and external data access.
