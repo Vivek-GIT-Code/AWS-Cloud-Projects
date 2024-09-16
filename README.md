@@ -23,7 +23,7 @@ Data Analytical Question Formulation
    
    ![Metrics](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/bd538da4b102a01b9f5fda7b91990f1b4537735d/Images/Picture1.png)
 
-Data Analytical Question Formulation
+Data Discovery
 - Focussed on the procedure ‘Contact Centre Metrics’ in the Government and Finance department for the city of Vancouver.
 - Data was sourced from the City of Vancouver website.
 - Utilized datasets  in Excel Format is as shown below.
