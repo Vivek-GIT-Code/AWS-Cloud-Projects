@@ -98,8 +98,5 @@ TBLPROPERTIES (
  - Amazon Athena: Estimated annual expense of $35.76 for querying and analysis.
  - EC2: Total yearly cost of $225.96 for hosting general and web servers.
 
-## Drawio file
-- [Click to download DrawIO file]https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/fa19ee07e37daaa9dc2bc8f18ab7a632bc1cca83/Drawio/VivekPieline.drawio
-
 ## Conclusion
  - The project showcases the effectiveness of using AWS cloud services for large-scale data analytics and highlights the capabilities in automating data workflows and gaining insights for city management.
