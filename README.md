@@ -24,7 +24,7 @@ Data Analytical Question Formulation
    ![Metrics](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/bd538da4b102a01b9f5fda7b91990f1b4537735d/Images/Picture1.png)
 
 Data Analytical Question Formulation
-- focussed on the procedure ‘Contact Centre Metrics’ in the Government and Finance department for the city of Vancouver.
+- Focussed on the procedure ‘Contact Centre Metrics’ in the Government and Finance department for the city of Vancouver.
 - Data was sourced from the City of Vancouver website.
 - Utilized datasets  in Excel Format is as shown below.
    
@@ -34,13 +34,13 @@ Data Storage Design
  - Utilized Amazon S3 for scalable and secure storage, categorizing data into three stages: Landing, Raw, and Curated.
 
 Dataset Preparation
-Involved data collection, ETL processes, and data cleaning using AWS Glue DataBrew.
+ - Involved data collection, ETL processes, and data cleaning using AWS Glue DataBrew.
 
 Data Pipeline Design
-Designed using draw.io to automate data processing stages.
+ - Designed using draw.io to automate data processing stages.
 
 Data Analysis
-Performed using AWS Athena for querying and deriving insights.
+ - Performed using AWS Athena for querying and deriving insights.
    
 ### AWS Services
  - AWS Services: Amazon S3 for storage, EC2 for computation, AWS Glue for ETL processes, and Athena for data analysis.
