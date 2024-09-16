@@ -30,9 +30,9 @@ Data Storage Design
 
 Dataset Preparation
  - Involved: 
- - Data collection
- - ETL processes
- - Data cleaning using AWS Glue DataBrew.
+   - Data collection
+   - ETL processes
+   - Data cleaning using AWS Glue DataBrew.
 
 Data Pipeline Design
  - Designed using draw.io to automate data processing stages.
@@ -42,10 +42,10 @@ Data Analysis
    
 ### AWS Services
  - AWS Services:
- - Amazon S3 for storage
- - EC2 for computation
- - AWS Glue for ETL processes
- - Athena for data analysis.
+    - Amazon S3 for storage
+    - EC2 for computation
+    - AWS Glue for ETL processes
+    - Athena for data analysis.
  
 ### Data Pipeline Implementation:
  - Implemented using AWS Glue for ETL processes.
@@ -59,7 +59,7 @@ Data Analysis
  - Table DDL
 
 ```sql
-  --Cleaned DIM_DateTable --
+  --Cleaned Contact Centre Table --
 CREATE EXTERNAL TABLE `gov_fin_contactcentre_table_vivek`(
   `year` string, 
   `percent_of_calls_handled` string)
