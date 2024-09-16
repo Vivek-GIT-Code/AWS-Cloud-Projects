@@ -1,9 +1,7 @@
 # AWS Projects 
 
 ## Project 1 Overview: 
- - Transition of the 'City of Vancouver' portal data to AWS cloud. 
- - Development of a Data Analytics Pipeline (DAP) using AWS services.
- - Focus on scalability, security, and automation in data handling.
+ - The project aims to migrate data from the City of Vancouver to an AWS cloud platform and create a comprehensive data analytics pipeline. The goal is to streamline data processing, analysis, and visualization for various city departments, ensuring scalability, security, and efficiency in data management.
 
 ## Table of Contents
  - [Data Analytical Question Formulation](#data-analytical-question-formulation)
@@ -15,7 +13,10 @@
  - [Data Pipeline Design](#data-pipeline-design)
  - [Data Analysis](#data-analysis)
  - [Data Visualisation](#data-visualisation)
- - [Data Publishing](#data-publishing) 
+ - [Data Publishing](#data-publishing)
+
+## Methodology
+
 
 ### Data Analytical Question Formulation
  - I chose to focus on the procedure ‘Contact Centre Metrics’ in the Government and Finance department for the city of Vancouver. 
@@ -29,12 +30,9 @@
    
    ![Metrics](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/bd538da4b102a01b9f5fda7b91990f1b4537735d/Images/Picture1.png)
 
-### Data Cleaning and Structuring
- - AWS Glue Databrew was used to clean the datasets for the years 2023 and 2024.
- - Ensured no missing or invalid values were present in the data.
- - The dataset was structured using AWS Glue DataBrew.
- - Columns were renamed, and data types were adjusted to fit the analysis requirements.
-
+### AWS Services
+ - AWS Services: Amazon S3 for storage, EC2 for computation, AWS Glue for ETL processes, and Athena for data analysis.
+ 
 ### Data Pipeline Implementation:
  - Implemented using AWS Glue for ETL processes.
  - Transformation operations included schema changes, aggregation, and union operations.
@@ -63,11 +61,14 @@ TBLPROPERTIES (
   'classification'='csv', 
   'skip.header.line.count'='1', 
   'transient_lastDdlTime'='1724308959')
-
+```
    ![Data Anlaysis](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/c7550f7b1494d1871892d5927adda31e96f0fd66/Images/Picture4.png)
 
-### Data Publishing
+### Outcome
  - General Server and Web Server were set up using Amazon EC2 for internal and external data access.
  - Published the annual analysis report on the percentage of calls handled for public access.
    
 ![Data Publishing](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/752a31569e76695a2524a152ace1461959bddc4c/Images/Picture5.png)
+
+### Conclusion
+ - The project showcases the effectiveness of using AWS cloud services for large-scale data analytics and highlights the capabilities in automating data workflows and gaining insights for city management.
