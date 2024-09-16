@@ -59,7 +59,7 @@
  - Table DDL
 
 ```sql
-  --Cleaned Contact Centre Table --
+  --Contact Centre Table --
 CREATE EXTERNAL TABLE `gov_fin_contactcentre_table_vivek`(
   `year` string, 
   `percent_of_calls_handled` string)
@@ -78,7 +78,7 @@ TBLPROPERTIES (
 ```
  - Data as pulled from AWS Athena Database is as shown below:
    
-   ![Data Anlaysis](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/c7550f7b1494d1871892d5927adda31e96f0fd66/Images/Picture4.png)
+![Data Anlaysis](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/c7550f7b1494d1871892d5927adda31e96f0fd66/Images/Picture4.png)
 
 ## Outcome
  - General Server and Web Server were set up using Amazon EC2 for internal and external data access.
