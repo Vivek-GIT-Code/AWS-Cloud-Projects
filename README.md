@@ -29,10 +29,10 @@ Data Storage Design
  - Utilized Amazon S3 for scalable and secure storage, categorizing data into three stages: Landing, Raw, and Curated.
 
 Dataset Preparation
- - Involved: 
-   - Data collection
-   - ETL processes
-   - Data cleaning using AWS Glue DataBrew.
+ - Involved:
+    - Data collection
+    - ETL processes
+    - Data cleaning using AWS Glue DataBrew.
 
 Data Pipeline Design
  - Designed using draw.io to automate data processing stages.
