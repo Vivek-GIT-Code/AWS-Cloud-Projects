@@ -15,10 +15,10 @@
  - [Data Visualisation](#data-visualisation)
  - [Data Publishing](#data-publishing)
 
-## Methodology
+### Methodology
 
 
-### Data Analytical Question Formulation
+Data Analytical Question Formulation
  - I chose to focus on the procedure ‘Contact Centre Metrics’ in the Government and Finance department for the city of Vancouver. 
  - Data was sourced from the City of Vancouver website.
  - Utilized datasets  in Excel Format is as shown below.
