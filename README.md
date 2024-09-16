@@ -17,19 +17,31 @@
 
 ### Methodology
 
-
 Data Analytical Question Formulation
- - I chose to focus on the procedure ‘Contact Centre Metrics’ in the Government and Finance department for the city of Vancouver. 
- - Data was sourced from the City of Vancouver website.
- - Utilized datasets  in Excel Format is as shown below.
-   
-   ![Question Formulation](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/959d4aa9e6ea5f4dc622d78a5e7477ad2bf55c2d/Images/Picture2.png)
-   
- - I have delved into the data for 2023 and 2024 to produce a metric called “Percentage of Calls handled.” The metric will provide the percentage of calls handled in the years 2023 and 2024, respectively
+ - Delved into the data for 2023 and 2024 to produce a metric called “Percentage of Calls handled.” The metric will provide the percentage of calls handled in the years 2023 and 2024, respectively
  - Percentage of calls handled = (Number of calls handled/ Number of calls offered) * 100
    
    ![Metrics](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/bd538da4b102a01b9f5fda7b91990f1b4537735d/Images/Picture1.png)
 
+Data Analytical Question Formulation
+- focussed on the procedure ‘Contact Centre Metrics’ in the Government and Finance department for the city of Vancouver.
+- Data was sourced from the City of Vancouver website.
+- Utilized datasets  in Excel Format is as shown below.
+   
+   ![Question Formulation](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/959d4aa9e6ea5f4dc622d78a5e7477ad2bf55c2d/Images/Picture2.png)
+  
+Data Storage Design
+ - Utilized Amazon S3 for scalable and secure storage, categorizing data into three stages: Landing, Raw, and Curated.
+
+Dataset Preparation
+Involved data collection, ETL processes, and data cleaning using AWS Glue DataBrew.
+
+Data Pipeline Design
+Designed using draw.io to automate data processing stages.
+
+Data Analysis
+Performed using AWS Athena for querying and deriving insights.
+   
 ### AWS Services
  - AWS Services: Amazon S3 for storage, EC2 for computation, AWS Glue for ETL processes, and Athena for data analysis.
  
