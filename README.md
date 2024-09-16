@@ -25,7 +25,6 @@ Data Analytical Question Formulation
 
 Data Discovery
 - Focussed on the procedure ‘Contact Centre Metrics’ in the Government and Finance department for the city of Vancouver.
-- Data was sourced from the City of Vancouver website.
 - Utilized datasets  in Excel Format is as shown below.
    
    ![Question Formulation](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/959d4aa9e6ea5f4dc622d78a5e7477ad2bf55c2d/Images/Picture2.png)
@@ -81,6 +80,18 @@ TBLPROPERTIES (
  - Published the annual analysis report on the percentage of calls handled for public access.
    
 ![Data Publishing](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/752a31569e76695a2524a152ace1461959bddc4c/Images/Picture5.png)
+
+### Insights and Findings
+ - 2023: The percentage of calls handled was 94.19%, indicating a high efficiency in managing calls at the '3-1-1 contact center' for the City of Vancouver during this year.
+ - 2024: The percentage of calls handled dropped slightly to 92.93%. This reduction, although minor, indicates a slight decline in the call-handling efficiency compared to the previous year.
+ - Comparison: There is a noticeable decrease of approximately 1.26% in the percentage of calls handled from 2023 to 2024. This could be due to various factors such as an increase in call volume, changes in operational procedures, or resource allocation challenges.
+
+### Cost Estimation
+ - Amazon S3: Estimated annual expense of $285.846 for storage across four buckets.
+ - AWS Glue DataBrew: Estimated yearly cost of $32.04 for cleaning and restructuring datasets.
+ - AWS Glue: Estimated total cost of $13.20 for ETL job runs.
+ - Amazon Athena: Estimated annual expense of $35.76 for querying and analysis.
+ - EC2: Total yearly cost of $225.96 for hosting general and web servers.
 
 ### Conclusion
  - The project showcases the effectiveness of using AWS cloud services for large-scale data analytics and highlights the capabilities in automating data workflows and gaining insights for city management.
