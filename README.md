@@ -1,15 +1,11 @@
 # AWS Projects 
 
-## Project 1 Overview: 
+## Project 1 Objective: 
  - The project aims to migrate data from the City of Vancouver to an AWS cloud platform and create a comprehensive data analytics pipeline. The goal is to streamline data processing, analysis, and visualization for various city departments, ensuring scalability, security, and efficiency in data management.
 
 ## Table of Contents
- - [Data Analytical Question Formulation](#data-analytical-question-formulation)
- - [Data Discovery](#data-discovery)
- - [Data Storage Design](#data-storage-design)
- - [Dataset Preparation](#dataset-preparation)
- - [Data Ingestion](#data-ingestion)
- - [Data Storage](#data-storage)
+ - [Methodology](#methodology)
+ - [Data Discovery](#AWS-Services)
  - [Data Pipeline Design](#data-pipeline-design)
  - [Data Analysis](#data-analysis)
  - [Data Visualisation](#data-visualisation)
@@ -33,7 +29,10 @@ Data Storage Design
  - Utilized Amazon S3 for scalable and secure storage, categorizing data into three stages: Landing, Raw, and Curated.
 
 Dataset Preparation
- - Involved data collection, ETL processes, and data cleaning using AWS Glue DataBrew.
+ - Involved: 
+ - Data collection
+ - ETL processes
+ - Data cleaning using AWS Glue DataBrew.
 
 Data Pipeline Design
  - Designed using draw.io to automate data processing stages.
@@ -42,7 +41,11 @@ Data Analysis
  - Performed using AWS Athena for querying and deriving insights.
    
 ### AWS Services
- - AWS Services: Amazon S3 for storage, EC2 for computation, AWS Glue for ETL processes, and Athena for data analysis.
+ - AWS Services:
+ - Amazon S3 for storage
+ - EC2 for computation
+ - AWS Glue for ETL processes
+ - Athena for data analysis.
  
 ### Data Pipeline Implementation:
  - Implemented using AWS Glue for ETL processes.
