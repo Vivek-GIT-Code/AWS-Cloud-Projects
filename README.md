@@ -76,6 +76,8 @@ TBLPROPERTIES (
   'skip.header.line.count'='1', 
   'transient_lastDdlTime'='1724308959')
 ```
+ - Data as pulled from AWS Athena Database is as shown below:
+   
    ![Data Anlaysis](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/c7550f7b1494d1871892d5927adda31e96f0fd66/Images/Picture4.png)
 
 ## Outcome
