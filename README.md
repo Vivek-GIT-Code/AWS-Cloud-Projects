@@ -147,18 +147,18 @@ TBLPROPERTIES (
     - Change of Schema (Addition of Coloumn).
     - Creation and publishing of recipe.
   
-![Data Transformation](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/f73d29720173b5f52eed9fc6fc1c1420b91b128c/Images/Project1_DataCleaningStructuring_Recipe.jpg)
+![Data Transformation](https://github.com/user-attachments/assets/db441eb5-0266-48f6-911c-3c06a8b1f9c6)
 
 ### Data Pipeline Implementation:
  - Implemented using AWS Glue for ETL processes.
  - Transformation operations included schema changes, aggregation, and union operations.
    
-![Data Pipeline](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/fb95b114b9702270ad89fd3953e864bdefeaed20/Images/ETL_Pipeline.jpg)
+![Data Pipeline](https://github.com/user-attachments/assets/c5c54041-9b76-4cb8-aac0-682901128319)
 
 ### Outcome
  - Figure shows the determination of metrics as deduced from ETL Glue.
    
-![Outcome](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/23994a6ee0bc2fec89d0efe4c543c06b00449ecb/Images/ETL_Output_Graduation%20Rate.jpg)
+![Outcome](https://github.com/user-attachments/assets/ef50dbd0-f11f-42d4-9a3e-7052bb8347e6)
 
 ### Insights and Findings
  - Student Graduation Rate (SGR) for 2023:
