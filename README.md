@@ -176,7 +176,7 @@ TBLPROPERTIES (
     - 2024: 69.70% (an increase from 2023 but still lower than 2022)
     - This trend highlights potential areas of concern in student retention or program effectiveness that UCW may need to address.
 
-## Conclusion
+### Conclusion
  - The project effectively uses AWS Glue DataBrew for data cleaning and transformation, and the ETL pipeline is successfully executed to calculate the student graduation rate.
  - The entire workflow, from data preparation to final output generation, is well-organized with clear steps for extracting, transforming, and loading data into an S3 bucket.
  - The project aims to provide insights into university graduation rates by using a systematic data processing approach, and the documented pipeline reflects a comprehensive methodology to achieve the objective.
