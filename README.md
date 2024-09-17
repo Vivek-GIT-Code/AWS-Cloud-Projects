@@ -100,4 +100,4 @@ TBLPROPERTIES (
  - The project showcases the effectiveness of using AWS cloud services for large-scale data analytics and highlights the capabilities in automating data workflows and gaining insights for city management.
 
 # Project 2 Objective
- - The project aims to migrate data from the City of Vancouver to an AWS cloud platform and create a comprehensive data analytics pipeline. The goal is to streamline data processing, analysis, and visualization for various city departments, ensuring scalability, security, and efficiency in data management.
+ - The objective of this project is to accurately calculate the student graduation rates for the years 2023 and 2024 at the University Canada West (UCW).By leveraging sampel data, such as student records and course completion information, this project seeks to uncover key insights into student performance, identify trends, and offer data-driven recommendations to improve future graduation rates
