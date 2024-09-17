@@ -106,17 +106,16 @@ TBLPROPERTIES (
  - The project showcases the effectiveness of using AWS cloud services for large-scale data analytics and highlights the capabilities in automating data workflows and gaining insights for city management.
 
 # Project 2 Objective
- - The objective of this project is to accurately calculate the student graduation rates for the years 2022, 2023 and 2024 at the University Canada West (UCW).By leveraging sample data, such as student records and course completion information, this project seeks to uncover key insights into student performance, identify trends, and offer data-driven recommendations to improve future graduation rates.
+ - The objective of this project is to accurately calculate the student graduation rates for the years 2022, 2023 and 2024 at the University Canada West (UCW).
+ - By leveraging sample data, such as student records and course completion information, this project seeks to uncover key insights into student performance, identify trends, and offer data-driven recommendations to improve future graduation rates.
 
-   ## Table of Contents
+## Table of Contents
  - [Methodology](#methodology)
  - [Data Discovery](#AWS-Services)
  - [Data Pipeline Design](#data-pipeline-design)
  - [Data Analysis](#data-analysis)
  - [Data Visualisation](#data-visualisation)
  - [Data Publishing](#data-publishing)
-
-## Methodology
 
 ### Data Analytical Question Formulation
  - Delved into the sample data for 2022, 2023 and 2024 to produce a metric called “Student Graduation Rate.” The metric will provide the percentage of student graduated in the years 2022, 2023 and 2024, respectively.
@@ -155,10 +154,28 @@ TBLPROPERTIES (
 ![Data Pipeline](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/fb95b114b9702270ad89fd3953e864bdefeaed20/Images/ETL_Pipeline.jpg)
 
 ## Outcome
- - The determination of metrics as deduced from ETL Glue is
+ - Figure shows the determination of metrics as deduced from ETL Glue.
 ![Outcome](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/23994a6ee0bc2fec89d0efe4c543c06b00449ecb/Images/ETL_Output_Graduation%20Rate.jpg)
 
 ## Insights and Findings
+ - Student Graduation Rate (SGR) for 2023:
+    - The graduation rate for the year 2023 is 66.67%.
+    - This indicates that approximately two-thirds of the students enrolled in the relevant programs at UCW successfully graduated in 2023.
+    - This rate reflects a decrease when compared to the previous year (2022).
+      
+ - Student Graduation Rate (SGR) for 2024:
+    - The graduation rate for the year 2024 is 69.70%.
+    - This shows a slight improvement over the 2023 graduation rate, suggesting positive changes in student performance or institutional effectiveness.
+    - However, it still falls short of the graduation rate observed in 2022.
+
+ - Trend Analysis:
+    - There is a notable fluctuation in the graduation rates over the three years:
+    - 2022: 73.53%
+    - 2023: 66.67% (a decrease from 2022)
+    - 2024: 69.70% (an increase from 2023 but still lower than 2022)
+    - This trend highlights potential areas of concern in student retention or program effectiveness that UCW may need to address.
+
+## Conclusion
  -The project effectively uses AWS Glue DataBrew for data cleaning and transformation, and the ETL pipeline is successfully executed to calculate the student graduation rate.
  - The entire workflow, from data preparation to final output generation, is well-organized with clear steps for extracting, transforming, and loading data into an S3 bucket.
  - The project aims to provide insights into university graduation rates by using a systematic data processing approach, and the documented pipeline reflects a comprehensive methodology to achieve the objective.
