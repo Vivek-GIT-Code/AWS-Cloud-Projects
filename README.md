@@ -35,6 +35,8 @@
 ### Data Pipeline Design
  - Designed using draw.io to automate data processing stages.
 
+![Pipeline](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/8e4ca28145a750066fea577e46a085e04107e4c2/Images/VivekPipeline.jpg)
+
 ### Data Analysis
  - Performed using AWS Athena for querying and deriving insights.
    
