@@ -131,7 +131,7 @@ TBLPROPERTIES (
 ### Data Pipeline Design
  - Designed using draw.io to anlayse data processing stages.
    
-## AWS Services
+### AWS Services
  - AWS Services:
     - Amazon S3 for storage
     - AWS GlueData Brew for Cleaning and Structuring.
@@ -147,18 +147,18 @@ TBLPROPERTIES (
   
 ![Data Transformation](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/f73d29720173b5f52eed9fc6fc1c1420b91b128c/Images/Project1_DataCleaningStructuring_Recipe.jpg)
 
-## Data Pipeline Implementation:
+### Data Pipeline Implementation:
  - Implemented using AWS Glue for ETL processes.
  - Transformation operations included schema changes, aggregation, and union operations.
    
 ![Data Pipeline](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/fb95b114b9702270ad89fd3953e864bdefeaed20/Images/ETL_Pipeline.jpg)
 
-## Outcome
+### Outcome
  - Figure shows the determination of metrics as deduced from ETL Glue.
    
 ![Outcome](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/23994a6ee0bc2fec89d0efe4c543c06b00449ecb/Images/ETL_Output_Graduation%20Rate.jpg)
 
-## Insights and Findings
+### Insights and Findings
  - Student Graduation Rate (SGR) for 2023:
     - The graduation rate for the year 2023 is 66.67%.
     - This indicates that approximately two-thirds of the students enrolled in the relevant programs at UCW successfully graduated in 2023.
