@@ -21,7 +21,7 @@
 - Focussed on the procedure ‘Contact Centre Metrics’ in the Government and Finance department for the city of Vancouver.
 - Utilized datasets  in Excel Format is as shown below.
    
-   ![Question Formulation](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/959d4aa9e6ea5f4dc622d78a5e7477ad2bf55c2d/Images/Picture2.png)
+   ![Question Formulation](https://github.com/user-attachments/assets/83f35f73-b08c-4036-9ee7-a5299c6434ee)
   
 ### Data Storage Design
  - Utilized Amazon S3 for scalable and secure storage, categorizing data into three stages: Landing, Raw, and Curated.
@@ -35,7 +35,7 @@
 ### Data Pipeline Design
  - Designed using draw.io to automate data processing stages.
 
-![Pipeline](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/8e4ca28145a750066fea577e46a085e04107e4c2/Images/VivekPipeline.jpg)
+![Pipeline](https://github.com/user-attachments/assets/1db2d1a2-0146-4cdc-8ca0-635b5c38f8c3)
 
 ### Data Analysis
  - Performed using AWS Athena for querying and deriving insights.
@@ -57,7 +57,7 @@
     - Derived Column: At this stage, the matric is calculated by performing the SQL operation
 Calls handled Percentage = (calls_handled/calls_offered) *100.
    
-   ![Data Pipeline](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/e223ff041416c74605764261a210bb18d737121c/Images/Picture3.png)
+   ![Data Pipeline](https://github.com/user-attachments/assets/3e9b389a-6083-4f76-97de-90bf7b0b63e2)
 
 ## Data Analysis
  - Data analysis was performed using AWS Athena.
@@ -84,13 +84,13 @@ TBLPROPERTIES (
 ```
  - Data as pulled from AWS Athena Database is as shown below:
    
-![Data Anlaysis](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/c7550f7b1494d1871892d5927adda31e96f0fd66/Images/Picture4.png)
+![Data Anlaysis](https://github.com/user-attachments/assets/c214f109-7a25-4891-930e-68468c60c921)
 
 ## Outcome
  - General Server and Web Server were set up using Amazon EC2 for internal and external data access.
  - Published the annual analysis report on the percentage of calls handled for public access.
    
-![Data Publishing](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/752a31569e76695a2524a152ace1461959bddc4c/Images/Picture5.png)
+![Data Publishing](https://github.com/user-attachments/assets/77a924dd-3efb-46c8-aef0-2a18660fa08f)
 
 ## Insights and Findings
  - 2023: The percentage of calls handled was 94.19%, indicating a high efficiency in managing calls at the '3-1-1 contact center' for the City of Vancouver during this year.
