@@ -121,10 +121,9 @@ TBLPROPERTIES (
 ### Data Analytical Question Formulation
  - Delved into the sample data for 2022, 2023 and 2024 to produce a metric called “Student Graduation Rate.” The metric will provide the percentage of student graduated in the years 2022, 2023 and 2024, respectively.
  - Percentage of Students Graduated (SGR) = (Number of Student Enrolled/ Number of Student Graduated) * 100
-   <Image>
- 
+  
 ### Dataset Preparation
- - Involved:
+ - Sample dataset includes two Excel files
     - Sample Student Records Information.
       <Image>
     - Sample Graduation Records.
@@ -152,8 +151,12 @@ TBLPROPERTIES (
 ## Data Pipeline Implementation:
  - Implemented using AWS Glue for ETL processes.
  - Transformation operations included schema changes, aggregation, and union operations.
- - 
+   
 ![Data Pipeline](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/fb95b114b9702270ad89fd3953e864bdefeaed20/Images/ETL_Pipeline.jpg)
+
+## Outcome
+ - The determination of metrics as deduced from ETL Glue is
+![Outcome](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/23994a6ee0bc2fec89d0efe4c543c06b00449ecb/Images/ETL_Output_Graduation%20Rate.jpg)
 
 ## Insights and Findings
  -The project effectively uses AWS Glue DataBrew for data cleaning and transformation, and the ETL pipeline is successfully executed to calculate the student graduation rate.
