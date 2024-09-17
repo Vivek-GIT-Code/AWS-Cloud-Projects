@@ -48,6 +48,12 @@
 ## Data Pipeline Implementation:
  - Implemented using AWS Glue for ETL processes.
  - Transformation operations included schema changes, aggregation, and union operations.
+    - Change Schema Operation: The schema of the 2023 and 2024 dataset has been changed by deleting all other columns that are not required and keeping and renaming the columns BI_ID, Year, calls_offered, and calls_handled.
+    - Aggregate Operation: The aggregate function has been used to aggregate the records of the ‘Year’ column within the 2023 and 2024 dataset.
+    - Union Operation: In order to prepare a collective dataset out of 2023 and 2024 records, the Union function has been utilized to create a new output from all the records of the two similar input datasets.
+    - Change Schema: At this stage, unwanted columns have been deleted by using the change schema operation
+    - Derived Column: At this stage, the matric is calculated by performing the SQL operation
+Calls handled Percentage = (calls_handled/calls_offered) *100.
    
    ![Data Pipeline](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/e223ff041416c74605764261a210bb18d737121c/Images/Picture3.png)
 
@@ -100,4 +106,56 @@ TBLPROPERTIES (
  - The project showcases the effectiveness of using AWS cloud services for large-scale data analytics and highlights the capabilities in automating data workflows and gaining insights for city management.
 
 # Project 2 Objective
- - The objective of this project is to accurately calculate the student graduation rates for the years 2023 and 2024 at the University Canada West (UCW).By leveraging sampel data, such as student records and course completion information, this project seeks to uncover key insights into student performance, identify trends, and offer data-driven recommendations to improve future graduation rates
+ - The objective of this project is to accurately calculate the student graduation rates for the years 2022, 2023 and 2024 at the University Canada West (UCW).By leveraging sample data, such as student records and course completion information, this project seeks to uncover key insights into student performance, identify trends, and offer data-driven recommendations to improve future graduation rates.
+
+   ## Table of Contents
+ - [Methodology](#methodology)
+ - [Data Discovery](#AWS-Services)
+ - [Data Pipeline Design](#data-pipeline-design)
+ - [Data Analysis](#data-analysis)
+ - [Data Visualisation](#data-visualisation)
+ - [Data Publishing](#data-publishing)
+
+## Methodology
+
+### Data Analytical Question Formulation
+ - Delved into the sample data for 2022, 2023 and 2024 to produce a metric called “Student Graduation Rate.” The metric will provide the percentage of student graduated in the years 2022, 2023 and 2024, respectively.
+ - Percentage of Students Graduated (SGR) = (Number of Student Enrolled/ Number of Student Graduated) * 100
+   <Image>
+ 
+### Dataset Preparation
+ - Involved:
+    - Sample Student Records Information.
+      <Image>
+    - Sample Graduation Records.
+      <Image>
+      
+### Data Pipeline Design
+ - Designed using draw.io to anlayse data processing stages.
+   
+## AWS Services
+ - AWS Services:
+    - Amazon S3 for storage
+    - AWS GlueData Brew for Cleaning and Structuring.
+    - AWS Glue for Data Pipleline.
+
+### Data Cleaning and Structuring
+ - It includes operations such as
+    - Checking invalid values in data set such as null rows.
+    - Renaming of coloum names.
+    - Change of Data Type for columns.
+    - Change of Schema (Addition of Coloumn).
+    - Creation and publishing of recipe.
+  
+![Data Transformation](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/f73d29720173b5f52eed9fc6fc1c1420b91b128c/Images/Project1_DataCleaningStructuring_Recipe.jpg)
+
+## Data Pipeline Implementation:
+ - Implemented using AWS Glue for ETL processes.
+ - Transformation operations included schema changes, aggregation, and union operations.
+ - 
+![Data Pipeline](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/fb95b114b9702270ad89fd3953e864bdefeaed20/Images/ETL_Pipeline.jpg)
+
+## Insights and Findings
+ -The project effectively uses AWS Glue DataBrew for data cleaning and transformation, and the ETL pipeline is successfully executed to calculate the student graduation rate.
+ - The entire workflow, from data preparation to final output generation, is well-organized with clear steps for extracting, transforming, and loading data into an S3 bucket.
+ - The project aims to provide insights into university graduation rates by using a systematic data processing approach, and the documented pipeline reflects a comprehensive methodology to achieve the objective.
