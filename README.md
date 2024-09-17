@@ -15,7 +15,7 @@
  - Delved into the data for 2023 and 2024 to produce a metric called “Percentage of Calls handled.” The metric will provide the percentage of calls handled in the years 2023 and 2024, respectively
  - Percentage of calls handled = (Number of calls handled/ Number of calls offered) * 100
    
-   ![Metrics](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/bd538da4b102a01b9f5fda7b91990f1b4537735d/Images/Picture1.png)
+   ![Metrics](https://github.com/user-attachments/assets/b4ba5957-631f-40cb-843f-3cbc6c1e20c9)
 
 ### Data Discovery
 - Focussed on the procedure ‘Contact Centre Metrics’ in the Government and Finance department for the city of Vancouver.
