@@ -155,6 +155,7 @@ TBLPROPERTIES (
 
 ## Outcome
  - Figure shows the determination of metrics as deduced from ETL Glue.
+   
 ![Outcome](https://github.com/VivekCodeCrafter/AWS-Cloud-Project/blob/23994a6ee0bc2fec89d0efe4c543c06b00449ecb/Images/ETL_Output_Graduation%20Rate.jpg)
 
 ## Insights and Findings
@@ -176,6 +177,6 @@ TBLPROPERTIES (
     - This trend highlights potential areas of concern in student retention or program effectiveness that UCW may need to address.
 
 ## Conclusion
- -The project effectively uses AWS Glue DataBrew for data cleaning and transformation, and the ETL pipeline is successfully executed to calculate the student graduation rate.
+ - The project effectively uses AWS Glue DataBrew for data cleaning and transformation, and the ETL pipeline is successfully executed to calculate the student graduation rate.
  - The entire workflow, from data preparation to final output generation, is well-organized with clear steps for extracting, transforming, and loading data into an S3 bucket.
  - The project aims to provide insights into university graduation rates by using a systematic data processing approach, and the documented pipeline reflects a comprehensive methodology to achieve the objective.
