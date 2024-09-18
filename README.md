@@ -111,36 +111,39 @@ TBLPROPERTIES (
  - By leveraging sample data, such as student records and course completion information, this project seeks to uncover key insights into student performance, identify trends, and offer data-driven recommendations to improve future graduation rates.
 
 ## Table of Contents
- - [Methodology](#methodology)
- - [Data Discovery](#AWS-Services)
+ - [Data Analytical Question Formulation](#data-analytical-question-formulation)
+ - [Dataset Preparation](#dataset-preparation)
  - [Data Pipeline Design](#data-pipeline-design)
- - [Data Analysis](#data-analysis)
- - [Data Visualisation](#data-visualisation)
- - [Data Publishing](#data-publishing)
+ - [AWS Services](#aws-services)
+ - [Data Cleaning and Structuring](#data-cleaning-and-structuring)
+ - [Data Pipeline Implementation](#data-pipeline Implementation)
+ - [Outcome](#outcome)
+ - [Insights and Findings](#insights-and-findings)
+ - [Conclusion](#conclusion)
 
-### Data Analytical Question Formulation
+## Data Analytical Question Formulation
  - Delved into the sample data for 2022, 2023 and 2024 to produce a metric called “Student Graduation Rate.” The metric will provide the percentage of student graduated in the years 2022, 2023 and 2024, respectively.
  - Percentage of Students Graduated (SGR) = (Number of Student Enrolled/ Number of Student Graduated) * 100
   
-### Dataset Preparation
+## Dataset Preparation
  - Sample dataset includes two Excel files
     - Sample Student Records Information.
 <kbd> <img src="https://github.com/user-attachments/assets/914c6d2a-d87e-43b9-b06e-cde92d67f59c" /> </kbd>
     - Sample Graduation Records Information.
 <kbd> <img src="https://github.com/user-attachments/assets/73c8cfc3-deb2-4657-a2f5-ee75d2868d7e" /> </kbd>
       
-### Data Pipeline Design
+## Data Pipeline Design
  - Designed using draw.io to anlayse data processing stages.
 
 <kbd> <img src="https://github.com/user-attachments/assets/d95b91b5-3d91-4169-8fba-9cd15b5aea17" /> </kbd>
    
-### AWS Services
+## AWS Services
  - AWS Services:
     - Amazon S3 for storage
     - AWS GlueData Brew for Cleaning and Structuring.
     - AWS Glue for Data Pipleline.
 
-### Data Cleaning and Structuring
+## Data Cleaning and Structuring
  - It includes operations such as
     - Checking invalid values in data set such as null rows.
     - Renaming of coloum names.
@@ -150,18 +153,18 @@ TBLPROPERTIES (
 
 <kbd> <img src="https://github.com/user-attachments/assets/db441eb5-0266-48f6-911c-3c06a8b1f9c6" /> </kbd>
 
-### Data Pipeline Implementation:
+## Data Pipeline Implementation:
  - Implemented using AWS Glue for ETL processes.
  - Transformation operations included schema changes, aggregation, and union operations.
    
 <kbd> <img src="https://github.com/user-attachments/assets/c5c54041-9b76-4cb8-aac0-682901128319" /> </kbd>
 
-### Outcome
+## Outcome
  - Figure shows the determination of metrics as deduced from ETL Glue.
    
 <kbd> <img src="https://github.com/user-attachments/assets/ef50dbd0-f11f-42d4-9a3e-7052bb8347e6" /> </kbd>
 
-### Insights and Findings
+## Insights and Findings
  - Student Graduation Rate (SGR) for 2023:
     - The graduation rate for the year 2023 is 66.67%.
     - This indicates that approximately two-thirds of the students enrolled in the relevant programs at UCW successfully graduated in 2023.
@@ -179,7 +182,7 @@ TBLPROPERTIES (
     - 2024: 69.70% (an increase from 2023 but still lower than 2022)
     - This trend highlights potential areas of concern in student retention or program effectiveness that UCW may need to address.
 
-### Conclusion
+## Conclusion
  - The project effectively uses AWS Glue DataBrew for data cleaning and transformation, and the ETL pipeline is successfully executed to calculate the student graduation rate.
  - The entire workflow, from data preparation to final output generation, is well-organized with clear steps for extracting, transforming, and loading data into an S3 bucket.
  - The project aims to provide insights into university graduation rates by using a systematic data processing approach, and the documented pipeline reflects a comprehensive methodology to achieve the objective.
