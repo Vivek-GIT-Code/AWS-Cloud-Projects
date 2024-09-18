@@ -207,17 +207,16 @@ TBLPROPERTIES (
     - Symmetric Key: Used to encrypt and decrypt data using the same key. This key is used for encrypting data stored in Amazon S3 buckets, ensuring that only authorized users can access the data.
     - Asymmetric Key: A pair of public and private keys is used for encryption and decryption. This method is used for data that requires higher security, allowing encryption with one key and decryption with another.
  - Data Storage Security in Amazon S3
+<kbd> <img src="https://github.com/user-attachments/assets/78a59c3b-9faa-485b-861e-898709f1e2c2" /> </kbd>
     - Bucket Policies and Access Controls: Access to the S3 buckets is restricted using IAM roles and bucket policies to ensure that only authorized users and services can access the data.
-    - Data Segregation: The data is segregated into different folders within S3 buckets ('Landing,' 'Raw,' and 'Trusted'), controlling access and processing at different stages.
     - ETL Pipeline Security: The ETL pipeline processes data through AWS Glue with encryption mechanisms to protect data during transformation.
  - Techniques for Integrity Protection
     - Data Integrity Checks: Encryption and decryption mechanisms ensure that data is secure and unaltered during storage and transmission. For example:
     - Versioning in S3: Amazon S3 versioning is configured to keep previous versions of objects, preventing data loss from accidental deletions or alterations.
+<kbd> <img src="https://github.com/user-attachments/assets/f4b3f5d4-3739-476a-87df-eba91abe7fd7" /> </kbd>
  - Monitoring and Auditing
-    - AWS CloudTrail: Logs and monitors user activities across the AWS environment, providing an audit trail of all activities related to data access and management, ensuring transparency and accountability.
-Amazon CloudWatch: Monitors key metrics and sets up alarms for unusual activities, helping to detect and respond to potential security threats.
-    - Privacy and Data Compliance
-Data Privacy Measures: The project involves implementing data privacy checks to ensure that sensitive information is protected, adhering to compliance standards.
+    - Replication:Replication provides data protection by automatically making several copies of the data in different buckets, whether in the same region or different regions.
+<kbd> <img src="https://github.com/user-attachments/assets/c31bf07a-5cfb-4b60-8556-fb0a8a40e6dc" /> </kbd>
 
 ### Data Governance
  - Data Quality Management
