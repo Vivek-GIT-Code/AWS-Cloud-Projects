@@ -3,11 +3,11 @@
 
 ## Table of Contents
  - [Methodology](#methodology)
- - [Data Discovery](#AWS-Services)
- - [Data Pipeline Design](#data-pipeline-design)
- - [Data Analysis](#data-analysis)
- - [Data Visualisation](#data-visualisation)
- - [Data Publishing](#data-publishing)
+ - [Data Discovery](#AWS_Services)
+ - [Data Pipeline Design](#data_pipeline_design)
+ - [Data Analysis](#data_analysis)
+ - [Data Visualisation](#data_visualisation)
+ - [Data Publishing](#data_publishing)
 
 ## Methodology
 
