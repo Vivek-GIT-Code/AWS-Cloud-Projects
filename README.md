@@ -20,8 +20,8 @@
    <kbd> <img src="https://github.com/user-attachments/assets/b4ba5957-631f-40cb-843f-3cbc6c1e20c9" /> </kbd>
 
 ### Data Discovery
-- Focussed on the procedure ‘Contact Centre Metrics’ in the Government and Finance department for the city of Vancouver.
-- Utilized datasets  in Excel Format is as shown below.
+- Focussed on the procedure ‘Contact Centre Metrics’ in the Government and Finance department for the city of Vancouver. [Data Source Link](https://opendata.vancouver.ca/explore/dataset/3-1-1-contact-centre-metrics/information/)
+- Utilized datasets in Excel Format is as shown below.
    
   <kbd> <img src="https://github.com/user-attachments/assets/83f35f73-b08c-4036-9ee7-a5299c6434ee" /> </kbd>
   
