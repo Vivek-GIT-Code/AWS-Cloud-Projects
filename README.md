@@ -126,7 +126,7 @@ TBLPROPERTIES (
 ### Dataset Preparation
  - Sample dataset includes two Excel files
     - Sample Student Records Information.
-      
+
 <kbd> <img src="https://github.com/user-attachments/assets/914c6d2a-d87e-43b9-b06e-cde92d67f59c" /> </kbd>
 
     - Sample Graduation Records Information.
