@@ -196,6 +196,9 @@ TBLPROPERTIES (
 
 ### Data Discovery
 - Focussed on the procedure ‘Awarded Contracts’ in the Government and Finance department for the city of Vancouver. [Link](https://opendata.vancouver.ca/explore/dataset/awarded-contracts/information/?disjunctive.bid_type)
+
+### ETL Workflow
+<kbd> <img src="https://github.com/user-attachments/assets/dcd7ca1e-b819-48dc-823e-36b33ea2c221" /> </kbd>
   
 ### Data Protection
  - Identity and Access Management (IAM)
@@ -207,8 +210,8 @@ TBLPROPERTIES (
     - Symmetric Key: Used to encrypt and decrypt data using the same key. This key is used for encrypting data stored in Amazon S3 buckets, ensuring that only authorized users can access the data.
     - Asymmetric Key: A pair of public and private keys is used for encryption and decryption. This method is used for data that requires higher security, allowing encryption with one key and decryption with another.
  - Data Storage Security in Amazon S3
-<kbd> <img src="https://github.com/user-attachments/assets/78a59c3b-9faa-485b-861e-898709f1e2c2" /> </kbd>
     - Bucket Policies and Access Controls: Access to the S3 buckets is restricted using IAM roles and bucket policies to ensure that only authorized users and services can access the data.
+<kbd> <img src="https://github.com/user-attachments/assets/78a59c3b-9faa-485b-861e-898709f1e2c2" /> </kbd>
     - ETL Pipeline Security: The ETL pipeline processes data through AWS Glue with encryption mechanisms to protect data during transformation.
  - Techniques for Integrity Protection
     - Data Integrity Checks: Encryption and decryption mechanisms ensure that data is secure and unaltered during storage and transmission. For example:
@@ -221,28 +224,16 @@ TBLPROPERTIES (
 ### Data Governance
  - Data Quality Management
     - AWS Glue: ETL Pipeline - The ETL (Extract, Transform, Load) pipeline using AWS Glue is designed to clean, process, and structure the data before it is stored in the "Trusted" zone. This ensures that the data used for analytics is of high quality, complete, and ready for analysis.
+<kbd> <img src="https://github.com/user-attachments/assets/3f36ebff-925c-4c8e-873b-03a76b642771" /> </kbd>
     - Data Quality Checks: During the data processing phase, AWS Glue performs data quality checks to remove duplicates, fill in missing values, and format the data according to predefined standards.
-Conditional Routing: Only records that pass data quality checks are moved into the trusted zone, ensuring that the dataset used for analytics is accurate and reliable.
+<kbd> <img src="https://github.com/user-attachments/assets/b1e2a736-8e0e-420a-a01f-f97101d9bee0" /> </kbd>
+    - Conditional Routing: Only records that pass data quality checks are moved into the trusted zone, ensuring that the dataset used for analytics is accurate and reliable.
+<kbd> <img src="https://github.com/user-attachments/assets/43ab5eeb-80ff-4a7e-9297-b3e02b833755" /> </kbd>
  - Data Privacy Management
     - Encryption and Access Control: Data privacy is enforced by encrypting sensitive data using AWS KMS and restricting access through IAM policies. Only authorized users with the appropriate roles can access and manipulate sensitive data, ensuring that privacy is maintained.
-    - Role-Based Access Control (RBAC): By assigning IAM roles and policies, the project controls access to different datasets, ensuring that only users who need access to sensitive information can view or modify it.
- - Data Lifecycle Management
-    - S3 Bucket Structuring: Data is organized into different zones within S3 buckets:
-    - Operational Data Zone: Contains raw data in its initial form.
-    - Processed Data Zone: Contains cleaned and restructured data, ready for further processing.
-    - Trusted Data Zone: Contains final, curated data that has passed privacy and quality checks. This data is complete, unique, and formatted for analysis.
  - Data Versioning: S3 versioning is enabled to maintain a history of changes to the data. This allows for the recovery of previous versions in case of accidental deletions or modifications, supporting data governance by providing data lineage and audit trails.
- - Data Governance Policies
-    - Data Access Policies: Defined using IAM policies and S3 bucket policies to ensure that only authorized users and services can access and modify the data. This includes:
-    - User Permissions: Granular access controls that define what operations users can perform on data.
-    - Bucket Policies: Restrict access at the bucket level, ensuring that only specific users or groups can access particular datasets.
     - LabRole Implementation: A predefined role ('LabRole') is assigned to manage permissions for encryption keys, data access, and usage within the platform, ensuring consistent governance policies across the platform.
- - Data Privacy and Compliance Checks
-    - Data Privacy: Data privacy checks are conducted during data processing to ensure that sensitive information is protected. This includes the use of encryption and controlled access to sensitive data fields.
- - Data Monitoring and Auditing
-    - AWS CloudTrail: Provides an audit trail of all activities performed on the AWS environment, including data access and modifications. This helps in tracking data usage and detecting unauthorized access, contributing to data governance.
-    - Data Monitoring: Continuous monitoring of data processing activities ensures that data governance policies are being followed. Screenshots and logs of the data monitoring process are expected to be included to provide transparency and accountability.
-
+   
 ### Data Monitoring
  - AWS CloudWatch for Real-Time Monitoring
     - Resource Monitoring: AWS CloudWatch is used to monitor key metrics of AWS resources, such as CPU utilization, memory usage, and network activity. It provides real-time insights into the performance of the data analytics platform.
