@@ -3,12 +3,13 @@
 
 ## Table of Contents
  - [Methodology](#methodology)
- - [Data Discovery](#data-discovery)
- - [Dataset Preparation](#dataset-preparation)
- - [Data Pipeline Design](#data-pipeline-design)
+ - [AWS Services](#aws-services)
+ - [Data Pipeline Implementation](#data-pipeline-implementation)
  - [Data Analysis](#data-analysis)
- - [Data Visualisation](#data-visualisation)
- - [Data Publishing](#data-publishing)
+ - [Outcome](#outcome)
+ - [Insights and Findings](#insights-and-findings)
+ - [Cost Estimation](#cost-estimation)
+ - [Conclusion](#conclusion)
 
 ## Methodology
 
