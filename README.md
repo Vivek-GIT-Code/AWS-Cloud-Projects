@@ -195,12 +195,10 @@ TBLPROPERTIES (
  - [Methodology](#methodology)
 
 ### Data Analytical Question Formulation
- - Delved into the data for 2023 and 2024 to produce a metric called “Percentage of Calls handled.” The metric will provide the percentage of calls handled in the years 2023 and 2024, respectively
- - Percentage of calls handled = (Number of calls handled/ Number of calls offered) * 100
+ - Delved into the data for 2022 and 2023 to 
 
 ### Data Discovery
-- Focussed on the procedure ‘Contact Centre Metrics’ in the Government and Finance department for the city of Vancouver.
-- Utilized datasets  in Excel Format is as shown below.
+- Focussed on the procedure ‘Awarded Contracts’ in the Government and Finance department for the city of Vancouver.
   
 ### Data Protection
  - Identity and Access Management (IAM)
@@ -229,17 +227,80 @@ Amazon CloudWatch: Monitors key metrics and sets up alarms for unusual activitie
 Data Privacy Measures: The project involves implementing data privacy checks to ensure that sensitive information is protected, adhering to compliance standards.
 
 ### Data Governance
+ - Data Quality Management
+    - AWS Glue: ETL Pipeline - The ETL (Extract, Transform, Load) pipeline using AWS Glue is designed to clean, process, and structure the data before it is stored in the "Trusted" zone. This ensures that the data used for analytics is of high quality, complete, and ready for analysis.
+    - Data Quality Checks: During the data processing phase, AWS Glue performs data quality checks to remove duplicates, fill in missing values, and format the data according to predefined standards.
+Conditional Routing: Only records that pass data quality checks are moved into the trusted zone, ensuring that the dataset used for analytics is accurate and reliable.
+
+ - Data Privacy Management
+    - Encryption and Access Control: Data privacy is enforced by encrypting sensitive data using AWS KMS and restricting access through IAM policies. Only authorized users with the appropriate roles can access and manipulate sensitive data, ensuring that privacy is maintained.
+    - Role-Based Access Control (RBAC): By assigning IAM roles and policies, the project controls access to different datasets, ensuring that only users who need access to sensitive information can view or modify it.
+      
+ - Data Lifecycle Management
+    - S3 Bucket Structuring: Data is organized into different zones within S3 buckets:
+    - Operational Data Zone: Contains raw data in its initial form.
+    - Processed Data Zone: Contains cleaned and restructured data, ready for further processing.
+    - Trusted Data Zone: Contains final, curated data that has passed privacy and quality checks. This data is complete, unique, and formatted for analysis.
+      
+ - Data Versioning: S3 versioning is enabled to maintain a history of changes to the data. This allows for the recovery of previous versions in case of accidental deletions or modifications, supporting data governance by providing data lineage and audit trails.
+   
+ - Data Governance Policies
+    - Data Access Policies: Defined using IAM policies and S3 bucket policies to ensure that only authorized users and services can access and modify the data. This includes:
+    - User Permissions: Granular access controls that define what operations users can perform on data.
+    - Bucket Policies: Restrict access at the bucket level, ensuring that only specific users or groups can access particular datasets.
+    - LabRole Implementation: A predefined role ('LabRole') is assigned to manage permissions for encryption keys, data access, and usage within the platform, ensuring consistent governance policies across the platform.
+ 
+ - Data Privacy and Compliance Checks
+    - Data Privacy: Data privacy checks are conducted during data processing to ensure that sensitive information is protected. This includes the use of encryption and controlled access to sensitive data fields.
+
+ - Data Monitoring and Auditing
+    - AWS CloudTrail: Provides an audit trail of all activities performed on the AWS environment, including data access and modifications. This helps in tracking data usage and detecting unauthorized access, contributing to data governance.
+    - Data Monitoring: Continuous monitoring of data processing activities ensures that data governance policies are being followed. Screenshots and logs of the data monitoring process are expected to be included to provide transparency and accountability.
+
 
 ### Data Monitoring
+ - AWS CloudWatch for Real-Time Monitoring
+    - Resource Monitoring: AWS CloudWatch is used to monitor key metrics of AWS resources, such as CPU utilization, memory usage, and network activity. It provides real-time insights into the performance of the data analytics platform.
+    - Custom Metrics and Dashboards: CloudWatch allows the creation of custom metrics and dashboards for specific aspects of the data analytics platform. For example, monitoring the status of S3 buckets, ETL pipelines in AWS Glue, and data processing jobs helps track data flow and detect anomalies.
+    - Alarms and Notifications: CloudWatch Alarms are set up to trigger notifications when certain thresholds are breached (e.g., unusually high data access attempts, resource usage spikes). This proactive monitoring helps in identifying and mitigating potential security incidents or performance issues.
+
+ - AWS CloudTrail for Audit Logging
+    - Activity Logging: AWS CloudTrail captures and logs all API calls made within the AWS environment. This includes actions performed on data stored in S3, modifications to IAM roles, and operations within AWS Glue.
+    - Audit Trails: CloudTrail logs serve as an audit trail, documenting who accessed or modified the data and when these actions occurred. This is crucial for tracking unauthorized access attempts and ensuring compliance with data governance policies.
+    - Event History: CloudTrail maintains a history of events for a specified period, allowing for a retrospective analysis of data access and usage patterns. This can be used to detect unusual activity or verify compliance with data privacy regulations.
+
+ - Data Quality Monitoring
+    - AWS Glue Data Quality Checks: During the ETL process, AWS Glue performs data quality checks to ensure that only valid and clean data is processed and moved to the "Trusted" zone. Metrics such as data completeness, consistency, and accuracy are monitored to maintain data integrity.
+    - ETL Pipeline Status: The status and performance of ETL jobs are monitored to ensure that data processing is completed successfully. Failures or anomalies in ETL jobs trigger alerts, prompting immediate investigation and remediation.
+
+ - S3 Data Access Monitoring
+    - S3 Access Logs: Amazon S3 access logs are enabled to record all requests made to the S3 buckets. This includes details about who accessed the data, what operations were performed (e.g., read, write, delete), and the source of the request.
+    - Data Integrity Checks: Data integrity is monitored through encryption status checks and integrity verification processes. For example, verifying that data in S3 buckets remains encrypted and unaltered during storage and transfer.
+
+ - IAM Role Monitoring
+    - IAM Role Usage: IAM roles and permissions are monitored to ensure they are being used appropriately. Any changes to roles or unusual usage patterns are logged and reviewed for compliance with security policies.
+    - Identity and Access Monitoring: CloudTrail and CloudWatch monitor IAM activities, such as changes to user roles, login attempts, and access to sensitive resources. This helps in ensuring that access controls are being enforced correctly.
+
+ - Data Processing Monitoring
+    - AWS Glue Job Monitoring: The status and logs of AWS Glue jobs are monitored to ensure that data transformation and loading processes run smoothly. Any errors or performance issues in ETL jobs are logged, and alerts are generated for immediate attention.
+    - ETL Pipeline Logs: Logs generated during the ETL process are reviewed to track data processing activities, ensuring that data is transformed and loaded according to predefined rules and governance policies.
+
+ - Alerting and Incident Response
+    - Automated Alerts: CloudWatch and CloudTrail can be configured to send automated alerts via email or SMS when specific events occur (e.g., unauthorized data access attempts, ETL job failures). This allows the team to respond promptly to potential security incidents or operational issues.
+    - Incident Response Plans: An incident response plan is implemented to handle data breaches, unauthorized access, or performance degradation. This plan includes predefined actions to contain, mitigate, and resolve incidents to ensure data protection and compliance.
 
 ## AWS Services Utilised
  - AWS Services:
-    - Amazon S3 for storage
-    - EC2 for computation
-    - AWS Glue for ETL processes
-    - Athena for data analysis.
- 
-## DAP Arhitectural Anlaysis
+    - IAM: Access control and user management.
+    - KMS: Encryption and key management.
+    - S3: Data storage and management with encryption and versioning.
+    - AWS Glue: Data integration, ETL, and data quality management.
+    - CloudWatch: Real-time monitoring and alerting.
+    - CloudTrail: Audit logging and activity tracking.
+    - S3 Access Logs: Data access monitoring and auditing.
+    - Cost Explorer: Cost tracking and optimization.
+      
+## DAP Architectural Anlaysis
  - Operational Excellence
  - Security
  - Reliability
@@ -247,11 +308,13 @@ Data Privacy Measures: The project involves implementing data privacy checks to 
  - Cost Optimization
  - Sustainability
 
-## Outcome
-
-
 ## Insights and Findings
-
+ - Secure Data Analytics Platform: The project successfully implements a secure data analytics platform for the City of Vancouver using AWS services. Data protection is ensured through encryption (using AWS KMS) and access control (via IAM), safeguarding data confidentiality and integrity.
+ - Effective Data Governance: The platform enforces data governance using AWS Glue for ETL processes and data quality checks, ensuring that only high-quality, clean data is used for analysis. IAM policies and S3 bucket structuring further support privacy and compliance.
+ - Comprehensive Data Monitoring: Real-time monitoring using AWS CloudWatch and CloudTrail tracks resource usage, API activities, and data access. This continuous monitoring helps maintain operational transparency and swiftly detect anomalies or security issues.
+ - Scalability and Cost Optimization: The architecture leverages AWS services like S3 and Glue to create a scalable platform capable of handling large datasets. Cost optimization is managed through AWS Cost Explorer, ensuring efficient resource usage.
+ - Enhanced Data Security and Privacy: Encryption techniques and role-based access control ensure data privacy and compliance, critical for handling sensitive city data. Versioning in S3 maintains data integrity, allowing for recovery of previous data versions.
 
 ## Conclusion
-
+ - The AWS Data Analytics Platform for the City of Vancouver successfully establishes a secure, scalable, and efficient environment for managing and analyzing city datasets. By leveraging a combination of AWS services, including IAM, KMS, S3, Glue, CloudWatch, and CloudTrail, the platform ensures robust data protection, governance, and real-time monitoring. This approach not only safeguards sensitive data through encryption and access controls but also enhances data quality and integrity through meticulous ETL processes and data governance practices.
+ - The platform is designed to adapt to varying data volumes and analytical needs, demonstrating both scalability and cost efficiency. It sets a strong foundation for data-driven decision-making while adhering to privacy and compliance standards. This project showcases how cloud-based solutions can be effectively utilized to meet the complex data management needs of public sector entities. Moving forward, the platform can be further enhanced with advanced analytics and automated governance to provide deeper insights and continuous optimization.
