@@ -195,7 +195,7 @@ TBLPROPERTIES (
  - [Methodology](#methodology)
 
 ### Data Discovery
-- Focussed on the procedure ‘Awarded Contracts’ in the Government and Finance department for the city of Vancouver.
+- Focussed on the procedure ‘Awarded Contracts’ in the Government and Finance department for the city of Vancouver. [Link](https://opendata.vancouver.ca/explore/dataset/awarded-contracts/information/?disjunctive.bid_type)
   
 ### Data Protection
  - Identity and Access Management (IAM)
