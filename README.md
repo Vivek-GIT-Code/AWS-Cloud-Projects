@@ -209,9 +209,9 @@ TBLPROPERTIES (
     - AWS Key Management Service (KMS):
     - Symmetric Key: Used to encrypt and decrypt data using the same key. This key is used for encrypting data stored in Amazon S3 buckets, ensuring that only authorized users can access the data.
     - Asymmetric Key: A pair of public and private keys is used for encryption and decryption. This method is used for data that requires higher security, allowing encryption with one key and decryption with another.
+<kbd> <img src="https://github.com/user-attachments/assets/78a59c3b-9faa-485b-861e-898709f1e2c2" /> </kbd>
  - Data Storage Security in Amazon S3
     - Bucket Policies and Access Controls: Access to the S3 buckets is restricted using IAM roles and bucket policies to ensure that only authorized users and services can access the data.
-<kbd> <img src="https://github.com/user-attachments/assets/78a59c3b-9faa-485b-861e-898709f1e2c2" /> </kbd>
     - ETL Pipeline Security: The ETL pipeline processes data through AWS Glue with encryption mechanisms to protect data during transformation.
  - Techniques for Integrity Protection
     - Data Integrity Checks: Encryption and decryption mechanisms ensure that data is secure and unaltered during storage and transmission. For example:
@@ -238,26 +238,14 @@ TBLPROPERTIES (
  - AWS CloudWatch for Real-Time Monitoring
     - Resource Monitoring: AWS CloudWatch is used to monitor key metrics of AWS resources, such as CPU utilization, memory usage, and network activity. It provides real-time insights into the performance of the data analytics platform.
     - Custom Metrics and Dashboards: CloudWatch allows the creation of custom metrics and dashboards for specific aspects of the data analytics platform. For example, monitoring the status of S3 buckets, ETL pipelines in AWS Glue, and data processing jobs helps track data flow and detect anomalies.
+<kbd> <img src="https://github.com/user-attachments/assets/a05efbac-af60-44cd-81da-ab08890589fb" /> </kbd>
     - Alarms and Notifications: CloudWatch Alarms are set up to trigger notifications when certain thresholds are breached (e.g., unusually high data access attempts, resource usage spikes). This proactive monitoring helps in identifying and mitigating potential security incidents or performance issues.
+<kbd> <img src="https://github.com/user-attachments/assets/40569bee-8274-4b29-87da-14e4a46eb538" /> </kbd>
  - AWS CloudTrail for Audit Logging
     - Activity Logging: AWS CloudTrail captures and logs all API calls made within the AWS environment. This includes actions performed on data stored in S3, modifications to IAM roles, and operations within AWS Glue.
     - Audit Trails: CloudTrail logs serve as an audit trail, documenting who accessed or modified the data and when these actions occurred. This is crucial for tracking unauthorized access attempts and ensuring compliance with data governance policies.
     - Event History: CloudTrail maintains a history of events for a specified period, allowing for a retrospective analysis of data access and usage patterns. This can be used to detect unusual activity or verify compliance with data privacy regulations.
- - Data Quality Monitoring
-    - AWS Glue Data Quality Checks: During the ETL process, AWS Glue performs data quality checks to ensure that only valid and clean data is processed and moved to the "Trusted" zone. Metrics such as data completeness, consistency, and accuracy are monitored to maintain data integrity.
-    - ETL Pipeline Status: The status and performance of ETL jobs are monitored to ensure that data processing is completed successfully. Failures or anomalies in ETL jobs trigger alerts, prompting immediate investigation and remediation.
- - S3 Data Access Monitoring
-    - S3 Access Logs: Amazon S3 access logs are enabled to record all requests made to the S3 buckets. This includes details about who accessed the data, what operations were performed (e.g., read, write, delete), and the source of the request.
-    - Data Integrity Checks: Data integrity is monitored through encryption status checks and integrity verification processes. For example, verifying that data in S3 buckets remains encrypted and unaltered during storage and transfer.
- - IAM Role Monitoring
-    - IAM Role Usage: IAM roles and permissions are monitored to ensure they are being used appropriately. Any changes to roles or unusual usage patterns are logged and reviewed for compliance with security policies.
-    - Identity and Access Monitoring: CloudTrail and CloudWatch monitor IAM activities, such as changes to user roles, login attempts, and access to sensitive resources. This helps in ensuring that access controls are being enforced correctly.
- - Data Processing Monitoring
-    - AWS Glue Job Monitoring: The status and logs of AWS Glue jobs are monitored to ensure that data transformation and loading processes run smoothly. Any errors or performance issues in ETL jobs are logged, and alerts are generated for immediate attention.
-    - ETL Pipeline Logs: Logs generated during the ETL process are reviewed to track data processing activities, ensuring that data is transformed and loaded according to predefined rules and governance policies.
- - Alerting and Incident Response
-    - Automated Alerts: CloudWatch and CloudTrail can be configured to send automated alerts via email or SMS when specific events occur (e.g., unauthorized data access attempts, ETL job failures). This allows the team to respond promptly to potential security incidents or operational issues.
-    - Incident Response Plans: An incident response plan is implemented to handle data breaches, unauthorized access, or performance degradation. This plan includes predefined actions to contain, mitigate, and resolve incidents to ensure data protection and compliance.
+<kbd> <img src="https://github.com/user-attachments/assets/ebed967a-7e96-4352-8cc4-b166400a284a" /> </kbd>
 
 ## AWS Services Utilised
  - AWS Services:
