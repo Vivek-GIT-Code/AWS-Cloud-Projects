@@ -116,7 +116,7 @@ TBLPROPERTIES (
  - [Data Pipeline Design](#data-pipeline-design)
  - [AWS Services](#aws-services)
  - [Data Cleaning and Structuring](#data-cleaning-and-structuring)
- - [Data Pipeline Implementation](#data-pipeline Implementation)
+ - [Data Pipeline Implementation](#data-pipeline-Implementation)
  - [Outcome](#outcome)
  - [Insights and Findings](#insights-and-findings)
  - [Conclusion](#conclusion)
