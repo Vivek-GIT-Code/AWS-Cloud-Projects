@@ -191,14 +191,14 @@ TBLPROPERTIES (
  - To design and implement a secure, efficient, and scalable Data Analytics Platform (DAP) for the City of Vancouver using AWS cloud services. This platform aims to facilitate the migration, storage, processing, and analysis of city datasets to enhance data-driven decision-making while ensuring data protection, governance, and compliance with privacy standards.
 
 ## Table of Contents
- - [Data Discovery](#data_discovery)
- - [ETL Workflow](#etl_workflow)
- - [Data protection](#data_protection)
- - [Data Governance](#data_governance)
- - [Data Monitoring](#data_monitoring)
- - [AWS Services Used](aws_services_used)
- - [DAP Architectural Analysis](#dap_architectural_analysis)
- - [Insights and Findings](#insights_and_findings)
+ - [Data Discovery](#data-discovery)
+ - [ETL Workflow](#etl-workflow)
+ - [Data protection](#data-protection)
+ - [Data Governance](#data-governance)
+ - [Data Monitoring](#data-monitoring)
+ - [AWS Services Used](aws-services-used)
+ - [DAP Architectural Analysis](#dap-architectural-analysis)
+ - [Insights and Findings](#insights-and-findings)
  - [Conclusion](#conclusion)
 
 ### Data Discovery
