@@ -89,6 +89,7 @@ TBLPROPERTIES (
 ## Outcome
  - General Server and Web Server were set up using Amazon EC2 for internal and external data access.
  - Published the annual analysis report on the percentage of calls handled for public access.
+   <kbd> <img src="https://github.com/user-attachments/assets/77a924dd-3efb-46c8-aef0-2a18660fa08f" /> </kbd>
    
 ![Data Publishing](https://github.com/user-attachments/assets/77a924dd-3efb-46c8-aef0-2a18660fa08f)
 
@@ -126,9 +127,11 @@ TBLPROPERTIES (
 ### Dataset Preparation
  - Sample dataset includes two Excel files
     - Sample Student Records Information.
+      
 ![Student Records](https://github.com/user-attachments/assets/914c6d2a-d87e-43b9-b06e-cde92d67f59c)
 
     - Sample Graduation Records Information.
+      
 ![Graduation records](https://github.com/user-attachments/assets/73c8cfc3-deb2-4657-a2f5-ee75d2868d7e)
       
 ### Data Pipeline Design
