@@ -127,16 +127,16 @@ TBLPROPERTIES (
  - Sample dataset includes two Excel files
     - Sample Student Records Information.
       
-![Student Records](https://github.com/user-attachments/assets/914c6d2a-d87e-43b9-b06e-cde92d67f59c)
+<kbd> <img src="https://github.com/user-attachments/assets/914c6d2a-d87e-43b9-b06e-cde92d67f59c" /> </kbd>
 
     - Sample Graduation Records Information.
       
-![Graduation records](https://github.com/user-attachments/assets/73c8cfc3-deb2-4657-a2f5-ee75d2868d7e)
+<kbd> <img src="https://github.com/user-attachments/assets/73c8cfc3-deb2-4657-a2f5-ee75d2868d7e" /> </kbd>
       
 ### Data Pipeline Design
  - Designed using draw.io to anlayse data processing stages.
 
-![ETL](https://github.com/user-attachments/assets/d95b91b5-3d91-4169-8fba-9cd15b5aea17)
+<kbd> <img src="https://github.com/user-attachments/assets/d95b91b5-3d91-4169-8fba-9cd15b5aea17" /> </kbd>
    
 ### AWS Services
  - AWS Services:
@@ -151,8 +151,8 @@ TBLPROPERTIES (
     - Change of Data Type for columns.
     - Change of Schema (Addition of Coloumn).
     - Creation and publishing of recipe.
-  
-![Data Transformation](https://github.com/user-attachments/assets/db441eb5-0266-48f6-911c-3c06a8b1f9c6)
+
+<kbd> <img src="https://github.com/user-attachments/assets/db441eb5-0266-48f6-911c-3c06a8b1f9c6" /> </kbd>
 
 ### Data Pipeline Implementation:
  - Implemented using AWS Glue for ETL processes.
