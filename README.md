@@ -3,12 +3,12 @@
 
 ## Table of Contents
  - [Methodology](#methodology)
- - [Data Discovery](#data_discovery)
- - [Dataset Preparation](#dataset_preparation)
- - [Data Pipeline Design](#data_pipeline_design)
- - [Data Analysis](#data_analysis)
- - [Data Visualisation](#data_visualisation)
- - [Data Publishing](#data_publishing)
+ - [Data Discovery](#data-discovery)
+ - [Dataset Preparation](#dataset-preparation)
+ - [Data Pipeline Design](#data-pipeline-design)
+ - [Data Analysis](#data-analysis)
+ - [Data Visualisation](#data-visualisation)
+ - [Data Publishing](#data-publishing)
 
 ## Methodology
 
