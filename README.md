@@ -158,13 +158,11 @@ TBLPROPERTIES (
  - Implemented using AWS Glue for ETL processes.
  - Transformation operations included schema changes, aggregation, and union operations.
    
-![Data Pipeline](https://github.com/user-attachments/assets/c5c54041-9b76-4cb8-aac0-682901128319)
+<kbd> <img src="https://github.com/user-attachments/assets/c5c54041-9b76-4cb8-aac0-682901128319" /> </kbd>
 
 ### Outcome
  - Figure shows the determination of metrics as deduced from ETL Glue.
    
-![Outcome](https://github.com/user-attachments/assets/ef50dbd0-f11f-42d4-9a3e-7052bb8347e6)
-
 <kbd> <img src="https://github.com/user-attachments/assets/ef50dbd0-f11f-42d4-9a3e-7052bb8347e6" /> </kbd>
 
 ### Insights and Findings
