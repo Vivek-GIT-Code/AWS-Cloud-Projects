@@ -3,7 +3,8 @@
 
 ## Table of Contents
  - [Methodology](#methodology)
- - [Data Discovery](#AWS_Services)
+ - [Data Discovery](#data_discovery)
+ - [Dataset Preparation](#dataset_preparation)
  - [Data Pipeline Design](#data_pipeline_design)
  - [Data Analysis](#data_analysis)
  - [Data Visualisation](#data_visualisation)
@@ -23,9 +24,6 @@
    
    ![Question Formulation](https://github.com/user-attachments/assets/83f35f73-b08c-4036-9ee7-a5299c6434ee)
   
-### Data Storage Design
- - Utilized Amazon S3 for scalable and secure storage, categorizing data into three stages: Landing, Raw, and Curated.
-
 ### Dataset Preparation
  - Involved:
     - Data collection
