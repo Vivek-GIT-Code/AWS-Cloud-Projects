@@ -200,9 +200,7 @@ TBLPROPERTIES (
 ### Data Protection
  - Identity and Access Management (IAM)
     - User Access Control: IAM is used to create users, user groups, and roles to manage access to AWS resources. The project assigns specific roles, such as 'LabRole,' to ensure that only authorized users have the necessary permissions.
-
  <kbd> <img src="https://github.com/user-attachments/assets/0149e8a3-2985-4c67-8a2d-f4e2f6fd329b" /> </kbd>
- 
     - Policy Creation: Policies are defined to grant the minimum required permissions for users, ensuring that each user or group can access only the resources they need.
  - Encryption and Decryption
     - AWS Key Management Service (KMS):
