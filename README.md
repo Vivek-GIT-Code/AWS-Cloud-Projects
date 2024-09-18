@@ -126,10 +126,10 @@ TBLPROPERTIES (
 ### Dataset Preparation
  - Sample dataset includes two Excel files
     - Sample Student Records Information.
-![Student Records](https://github.com/user-attachments/assets/914c6d2a-d87e-43b9-b06e-cde92d67f59c")
+![Student Records](https://github.com/user-attachments/assets/914c6d2a-d87e-43b9-b06e-cde92d67f59c)
 
-    - Sample Graduation Records.
-![Graduation records](https://github.com/user-attachments/assets/73c8cfc3-deb2-4657-a2f5-ee75d2868d7e")
+    - Sample Graduation Records Information.
+![Graduation records](https://github.com/user-attachments/assets/73c8cfc3-deb2-4657-a2f5-ee75d2868d7e)
       
 ### Data Pipeline Design
  - Designed using draw.io to anlayse data processing stages.
