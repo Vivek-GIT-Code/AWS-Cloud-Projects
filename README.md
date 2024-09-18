@@ -17,13 +17,14 @@
  - Delved into the data for 2023 and 2024 to produce a metric called “Percentage of Calls handled.” The metric will provide the percentage of calls handled in the years 2023 and 2024, respectively
  - Percentage of calls handled = (Number of calls handled/ Number of calls offered) * 100
    
-   ![Metrics](https://github.com/user-attachments/assets/b4ba5957-631f-40cb-843f-3cbc6c1e20c9)
+   <kbd> <img src="https://github.com/user-attachments/assets/b4ba5957-631f-40cb-843f-3cbc6c1e20c9" /> </kbd>
 
 ### Data Discovery
 - Focussed on the procedure ‘Contact Centre Metrics’ in the Government and Finance department for the city of Vancouver.
 - Utilized datasets  in Excel Format is as shown below.
    
-   ![Question Formulation](https://github.com/user-attachments/assets/83f35f73-b08c-4036-9ee7-a5299c6434ee)
+  <kbd> <img src="https://github.com/user-attachments/assets/83f35f73-b08c-4036-9ee7-a5299c6434ee" /> </kbd>
+  
   
 ### Dataset Preparation
  - Involved:
@@ -34,7 +35,7 @@
 ### Data Pipeline Design
  - Designed using draw.io to automate data processing stages.
 
-![Pipeline](https://github.com/user-attachments/assets/1db2d1a2-0146-4cdc-8ca0-635b5c38f8c3)
+<kbd> <img src="https://github.com/user-attachments/assets/1db2d1a2-0146-4cdc-8ca0-635b5c38f8c3" /> </kbd>
 
 ### Data Analysis
  - Performed using AWS Athena for querying and deriving insights.
@@ -56,7 +57,7 @@
     - Derived Column: At this stage, the matric is calculated by performing the SQL operation
 Calls handled Percentage = (calls_handled/calls_offered) *100.
    
-   ![Data Pipeline](https://github.com/user-attachments/assets/3e9b389a-6083-4f76-97de-90bf7b0b63e2)
+   <kbd> <img src="https://github.com/user-attachments/assets/3e9b389a-6083-4f76-97de-90bf7b0b63e2" /> </kbd>
 
 ## Data Analysis
  - Data analysis was performed using AWS Athena.
@@ -83,13 +84,13 @@ TBLPROPERTIES (
 ```
  - Data as pulled from AWS Athena Database is as shown below:
    
-![Data Anlaysis](https://github.com/user-attachments/assets/c214f109-7a25-4891-930e-68468c60c921)
+<kbd> <img src="https://github.com/user-attachments/assets/c214f109-7a25-4891-930e-68468c60c921" /> </kbd>
 
 ## Outcome
  - General Server and Web Server were set up using Amazon EC2 for internal and external data access.
  - Published the annual analysis report on the percentage of calls handled for public access.
    
-![Data Publishing](https://github.com/user-attachments/assets/77a924dd-3efb-46c8-aef0-2a18660fa08f)
+<kbd> <img src="https://github.com/user-attachments/assets/77a924dd-3efb-46c8-aef0-2a18660fa08f" /> </kbd>
 
 ## Insights and Findings
  - 2023: The percentage of calls handled was 94.19%, indicating a high efficiency in managing calls at the '3-1-1 contact center' for the City of Vancouver during this year.
