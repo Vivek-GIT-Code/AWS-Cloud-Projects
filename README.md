@@ -194,9 +194,6 @@ TBLPROPERTIES (
 ## Table of Contents
  - [Methodology](#methodology)
 
-### Data Analytical Question Formulation
- - Delved into the data for 2022 and 2023 to 
-
 ### Data Discovery
 - Focussed on the procedure ‘Awarded Contracts’ in the Government and Finance department for the city of Vancouver.
   
