@@ -89,7 +89,6 @@ TBLPROPERTIES (
 ## Outcome
  - General Server and Web Server were set up using Amazon EC2 for internal and external data access.
  - Published the annual analysis report on the percentage of calls handled for public access.
-   <kbd> <img src="https://github.com/user-attachments/assets/77a924dd-3efb-46c8-aef0-2a18660fa08f" /> </kbd>
    
 ![Data Publishing](https://github.com/user-attachments/assets/77a924dd-3efb-46c8-aef0-2a18660fa08f)
 
@@ -165,6 +164,8 @@ TBLPROPERTIES (
  - Figure shows the determination of metrics as deduced from ETL Glue.
    
 ![Outcome](https://github.com/user-attachments/assets/ef50dbd0-f11f-42d4-9a3e-7052bb8347e6)
+
+<kbd> <img src="https://github.com/user-attachments/assets/ef50dbd0-f11f-42d4-9a3e-7052bb8347e6" /> </kbd>
 
 ### Insights and Findings
  - Student Graduation Rate (SGR) for 2023:
